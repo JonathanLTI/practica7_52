@@ -1,0 +1,71 @@
+
+/* Selector por clase */
+/* .titulo {
+    border: 1px solid rgb(0, 0, 0);
+    color:rgb(67, 1, 1);
+    box-shadow: 15px 5px 15px gold;
+    font-family: 'Times New Roman', Times, serif;
+} */
+/* Selector de clase para una etiqueta en especial */
+/* h1.titulo {
+    background-color:aliceblue;
+    font-style:italic;
+} */
+
+/* Selector por atributo */
+/* p[lang] {
+    background-color:bisque;
+} */
+/* Selector por atributo, mas especifico en uno */
+/* p[lang= "es-mx"] {
+    background-color:rgb(236, 130, 0);
+}
+
+a[href$="org"] {
+    background-color: bisque;
+}
+a[href$=".mx"] {
+    background-color: rgb(255, 151, 151);
+} */
+
+/* alt 94 = ^ significa inicio */
+
+/* a[href^="#"] {
+    background-color: cadetblue;
+} */
+
+
+/* hay qye poner el asterisco porque buscamos la palabra empresa,  */
+/* a[href*="empresa"] {
+    font-size: large;
+}
+ */
+
+/* alt gr y * = "~" */
+/* alt 92 = "\" */
+
+/* selector descendientes */
+
+/* solid =solido dotted= linea punteada sashed = linea ---------  */
+main p {
+    border-bottom: 1px dotted black;
+}
+
+/* selector  hijo directo*/
+
+main > p {
+    border-bottom: 1px solid black;
+}
+/* Hermano adyacente */
+
+h1 + p {
+    background-color: green;
+}
+
+/* h3 busca y todos sus hermanos "~" */
+
+h3 ~ p {
+    color: brown;
+}
+
+
